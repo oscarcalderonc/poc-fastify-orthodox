@@ -1,0 +1,11 @@
+name: first-action
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: first-step
+        run: echo "Hola caca"
+      - name: last-step
+        run: echo "Adios caca"
+  
